@@ -1,0 +1,68 @@
+/*Verde oscuro: #253601*/
+/*Verde claro: #4D6416 */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagenDetail { 
+    height: 600px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.imagenSection { 
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.imagenCard {
+    height: 100%;
+    width: 100%;
+}
+.servicio-card {
+    transition: transform 0.3s ease-in-out;
+}
+.servicio-card:hover {
+    transform: scale(1.05);
+}
+.servicio {
+    display: flex;
+    flex-direction: row;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: 400px;
+}
+
+/* Colores personalizados */
+.bg-secondary {
+    background-color: #253601 !important;
+}
+
+.text-dark {
+    color: #73942D !important;
+}
+
+.text-muted {
+    color: #001E00 !important;
+}
+
+.bg-dark {
+    background-color: #73942D !important;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    background-color: #F5F5F5;
+    border: 1px solid #253601;
+}
+
+.card-title {
+    color: #253601 !important;
+}
+
+.card-text {
+    color: #001E00 !important;
+}
